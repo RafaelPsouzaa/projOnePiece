@@ -1,3 +1,9 @@
+@media (max-width:1080px){
+
+}
+
+
+
 @media (max-width:769px){
     main::after{
         background: linear-gradient(0deg,#000 20%,rgba(0,0,0,0)65%)no-repeat;
@@ -16,6 +22,8 @@
         top: -20;
         max-width: 100vw;
         padding: 30px;
+        
+        
     }
     .conteudo .nome-personagem{
         font-size: 36px;
@@ -23,6 +31,7 @@
 
     .conteudo .descricao{
         max-width: 500px;
+        
     }
     .botoes{
     flex-direction: row;
@@ -39,6 +48,41 @@
 @media (max-width:425px){
     main .personagem .imagem{
         height: auto;
+
+    }
+    .conteudo .logo{
+        width: 170px;
+        height: 75px;
+
+    }
+    .botoes{
+        padding: 20px;
+        top: -5%;
+    }
+
+}
+@media (min-width:800px){
+    .conteudo{
+        /* justify-content: flex-end; */
+        left: 0;
+        top: 10;
+        max-width: 50vw;
+        padding: 0px;
+       
+    }
+}
+@media (max-width:393px){
+    main .conteudo{
+        /* justify-content: flex-end; */
+        left: 0;
+        /* top: 0; */
+        down:200px;
+        max-width: 100vw;
+        padding: 10px;
+    }
+    .conteudo .logo{
+        margin-top: 60px;
+    
     }
 }
 

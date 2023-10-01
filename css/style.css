@@ -65,6 +65,11 @@ main .personagem .imagem {
     color: aliceblue;
     font-family: 'rubik dirt';
     line-height: 24px;
+    text-shadow: 
+    -1px -1px 0px #068dcc, 
+    -1px 1px 0px #068dcc,      
+     1px -1px 0px #068dcc,    
+     1px 0px 0px #FFF;
 }
 
 .conteudo .logo{
