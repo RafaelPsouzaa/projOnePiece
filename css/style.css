@@ -14,7 +14,7 @@ body {
 }
 
 main::after{
-    content: " ";
+    content: "";
     position: fixed;
     top: 0;
     left: 0;
@@ -73,6 +73,7 @@ main .personagem .imagem {
     
 }
 
+
 .conteudo .logo{
     background-image: url("../src/imagens/one-piece-logo.png");
     background-size: cover;
@@ -98,6 +99,7 @@ main .personagem .imagem {
     border: none;
     background: none;
     cursor: pointer;
+    border-radius: 50%;
     
 }
 
